@@ -3,3 +3,67 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700; 
+}
+.banner{
+color: #2A90D9;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+}
+.logo{
+color: #EE685F;
+}
+.menu-toggle {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer; 
+  display: none;
+  transform: translateX(-100%);    
+} 
+.nav-menu {
+  display: flex;
+}
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-menu li {
+  margin-left: 20px;
+  color: #1A1A1A;
+  font-size: 16px;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+}
+.close-menu {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #333333;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+} 

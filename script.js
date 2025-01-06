@@ -1,10 +1,15 @@
-const hamburger = document.getElementById('hamburger');
-const mobileMenu = document.getElementById('mobileMenu');
-const closeMenu = document.getElementById('closeMenu');
+document.addEventListener("DOMContentLoaded", function() {
+    const menuToggle = document.getElementById('menuToggle');
+    const closeMenu = document.getElementById('closeMenu');
+    const navMenu = document.getElementById('navMenu');
 
-hamburger.addEventListener( 'click', () => {mobileMenu.style.left ='0';});
-closeMenu.addEventListener( 'click', () => {mobileMenu.style.left ='-100%';});
+    if (menuToggle && navMenu && closeMenu) {
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
 
-// menuToggle.addEventListener('click', () => {
-//   navLinks.classList.toggle('active');
-// });
+        closeMenu.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+        });
+    }
+});
