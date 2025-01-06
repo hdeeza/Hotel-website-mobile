@@ -105,9 +105,6 @@ color: #EE685F;
 .profile-icon{
   margin-left: 20px;
 }
-/* .people{
-  transform: translateY(-100%);
-} */
 .search-button{ 
   display: flex;
   align-items: center;
@@ -146,6 +143,7 @@ color: #EE685F;
   border-radius: 50%;
   padding: 8px;
  }
+ 
 @media (max-width: 768px) {
   .menu-toggle {
       display: block;    
