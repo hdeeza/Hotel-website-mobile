@@ -27,7 +27,6 @@ chooseUsParagraph.innerHTML = `
   here, so the text here will be <br>
   different.
 `;
-
 chooseUsContainer.appendChild(chooseUsHeading);
 chooseUsContainer.appendChild(chooseUsParagraph);
 

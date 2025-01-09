@@ -28,7 +28,7 @@ This project is built using HTML, CSS and JavaSript and provides a visually appe
 -A footer with additional links, logo and information.
 
 ## Live-Demo
--Check out the live Demo of the Project:[LiveDemo](https://hotel-website-mobile-ham3.onrender.com)
+-Check out the live Demo of the Project:[LiveDemo]()
 -check out the loom video
 
 ## Technologies Used
