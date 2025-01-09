@@ -28,7 +28,7 @@ This project is built using HTML, CSS and JavaSript and provides a visually appe
 -A footer with additional links, logo and information.
 
 ## Live-Demo
--Check out the live Demo of the Project:[LiveDemo]()
+-Check out the live Demo of the Project:[LiveDemo](https://hotel-app-lgmw.onrender.com)
 -check out the loom video
 
 ## Technologies Used
