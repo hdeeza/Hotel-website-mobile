@@ -28,7 +28,8 @@ This project is built using HTML, CSS and JavaSript and provides a visually appe
 -A footer with additional links, logo and information.
 
 ## Live-Demo
--Check out the live Demo of the Project:[LiveDemo](https://travel-mobile-view-desktop.onrender.com)
+-Check out the live Demo of the Project:[LiveDemo](https://hotel-website-mobile-ham3.onrender.com)
+-check out the loom video
 
 ## Technologies Used
 
@@ -94,7 +95,6 @@ Here's a quick outline of the key HTML structure:
     <div class="blog-container">
          <div class="posts">
               <h2>Recent posts</h2>
-              <!--Memorable images and text-->
      </div>
     <footer>
              <!--Footer content-->
